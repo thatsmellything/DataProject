@@ -14,6 +14,7 @@
 		FB5B406E21E8FEFE00034271 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B406B21E8FEFE00034271 /* BucketItemCell.swift */; };
 		FB5B406F21E8FEFE00034271 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B406C21E8FEFE00034271 /* BucketItem.swift */; };
 		FB5B407021E8FEFE00034271 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B406D21E8FEFE00034271 /* DataViewController.swift */; };
+		FBBAADDD21ECDCF400A6F3F8 /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = FBBAADDC21ECDCF400A6F3F8 /* bucket18.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FB5B406B21E8FEFE00034271 /* BucketItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		FB5B406C21E8FEFE00034271 /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		FB5B406D21E8FEFE00034271 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		FBBAADDC21ECDCF400A6F3F8 /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bucket18.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			children = (
 				FB026C8821AC499D00E61BDC /* AppDelegate.swift */,
 				FB026C8F21AC49B000E61BDC /* Assets.xcassets */,
+				FBBAADDC21ECDCF400A6F3F8 /* bucket18.csv */,
 				FB026C9421AC49B000E61BDC /* Info.plist */,
 			);
 			path = Resources;
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB026C9321AC49B000E61BDC /* LaunchScreen.storyboard in Resources */,
+				FBBAADDD21ECDCF400A6F3F8 /* bucket18.csv in Resources */,
 				FB026C9021AC49B000E61BDC /* Assets.xcassets in Resources */,
 				FB026C8E21AC499D00E61BDC /* Main.storyboard in Resources */,
 			);
@@ -313,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWN2J7MVUF;
 				INFOPLIST_FILE = "$(SRCROOT)/DataProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWN2J7MVUF;
 				INFOPLIST_FILE = "$(SRCROOT)/DataProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
